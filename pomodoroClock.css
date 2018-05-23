@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+p {
+	font-size: 100px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	
+	text-align: center;
+
+}
+
+.breaks {
+	color: white;
+	text-align: center;
+	background: #2BA6CB;
+	font-size: 24px;
+	letter-spacing: 1px;
+	outline: none;
+	border: 1px solid gray;
+	padding: 5px;
+	height: 100%;
+	width: 30%;
+	transition: 0.5s all;
+}
+
+.breaks:hover{
+	background: #628C9D;
+	cursor: pointer;
+}
+
+.timers {
+	color: white;
+	height: 100%;
+	width: 20%;
+	margin: 5%;
+	background: green;
+	border-radius: 5px;
+	font-size: 32px;
+	border: 1px solid gray;
+	outline: none;
+	transition: 0.5s all;
+	
+
+}
+
+.timers:hover {
+	cursor: pointer;
+}
+
+.header {
+	width: 100%;
+	height: 30%;
+	background: #e0e2e5;
+	font-size: 48px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	margin: 30px auto;
+	max-width: 800px;
+	max-height: 45px;
+}
+
+.container2{
+	text-align: center;
+	margin: 30px auto;
+	max-width: 800px;
+	height: 75px;
+
+
+}
+
+#startBtn {
+background: #579921;
+
+}
+
+#startBtn:hover{
+background: #365625;
+}
+
+#stopBtn {
+background: #C60F13;
+}
+
+#stopBtn:hover {
+background: #691111;
+}
+
+#resetBtn {
+color: black;
+background: #E9E9E9;
+}
+
+#resetBtn:hover {
+background: #999999;
+}
+
+@media(max-width:960px){
+.breaks {
+	
+	font-size: 12px;
+}
+
+.container2{
+	height: 40px;
+}
+
+.timers {
+	font-size: 24px;
+}
+}
